@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="images/favicon.png">
+        <title>Café Parasollen, Viby</title>
+        <meta name="author" content="Line Merrild Nielsen"/>
+        <meta name="keywords" content="social café, café liv, frivillighed, frivillig, fællesskab, ensomhed, samvær, rummelighed, café, viby, mangfoldighed, handicap, mad, billige caféer, aktiviteter, strikkeklub, strikkecafé, alkoholfri café, café parasollen, nada café århus, parasollen, solstrålen" />
+        <meta name="description" content="Café Parasollen er en social café med plads til netop dig og dine behov, og med tilbud der klæder enhver!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/reset.css" rel="resetsheet">
+        <link href='https://fonts.googleapis.com/css?family=Dosis:400,600,700,800' rel='stylesheet'> <!-- Using Google Fonts API to get the desired font -->
+        <link href="/css/style.css" rel="stylesheet"/>
+        <link rel="icon" href="images/favicon.png"/>
+        
+        
+        <!-- NOTE: This was made to fit a 1920x1080 screen and will break on most other screen sizes as the code is not currently responsive. -->
+    </head>
+
+    <body>
+        <header>
+            <img id="logo" alt="Café Parasollen logo" src="images/logo.png" usemap="#logoMap"/>
+            <map name="logoMap">
+                <area shape="poly" coords="0,0,100,0,0,100" alt="Café Parasollen logo map" href="index.html">
+            </map> 
+            <!-- Using Image Mapping, we've made the linkable part of the image ONLY the visible triangle. This is done by specifying a polygon, and three 'anchor' points using coordinates of the image, the first being (0,0), second being (100,0) nd lastly (0,100) with the x-coordinate being the distance from the left margin, and the y-coordinate being the distance from the top-->
+            
+            <nav>
+                <ul id="navItems">
+                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="#">Prisliste</a></li>
+                    <li><a href="#">Studerende og Praktikanter</a></li>
+                    <li><a href="#">Om Os</a></li>
+                    <li><a href="kontaktOs.html">Kontakt Os</a></li>
+                    <li><a id="searchIcon" href="#"><img src="images/searchIcon.png" alt="Søgeikon"/></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <p id="day"></p>
+                <p class="dailyInfo">Aktiviteter</p>
+                <p id="dailyActivities" class="dailyActivitiesStyle"></p>
+                <p class="dailyInfo">Dagens Ret</p>
+                <p id="dailyFood"></p>
+                <p class="dailyInfo">Åbningstider</p>
+                <p id="dailyOpenHours"></p>
+            </aside>
+            
+            <section id="intro">
+               <div>
+                   <h1>Café Parasollen</h1>
+               </div>
+            </section>
+            
+            <section id="omCafeParasollen">
+              <img alt="" src="images/paperPeople.png" id="paperPeople"/>
+              <div class="flex">
+               <div id="omCafeen">
+                    <h2>Om Café Parasollen</h2>
+                    <p>Hos Café Parasollen lægger vi vægt på fællesskab og gør plads til forskelligheder. Vores formål er at give et sted til dem som mangler det - uanset alder, køn eller mulige skavanker - derfor er vores tilbud også lige så varierede som du og jeg!</p>
+                    <p id="endP">Vi er et tilbud til alle om socialt samvær, hygge og god, billig mad - hver dag!</p>
+                    <a href="#" class="button">Læs videre i vores årsskrift ></a>   
+               </div>
+                <img id="cafeBuilding" alt="Café Parasollens hjem" src="images/cafeParasollenBuilding.png">
+                </div>
+            </section>
+            
+            <section id="senesteNyt">
+                <h2>Seneste Nyt</h2>
+                
+                <h3>Café Parasollen</h3>
+                <div class="flex">
+                    <!-- BILLEDER / ARTIKLER HER -->
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="Social medie klub" src="images/socialMedia.jpg"/>
+                            <h5>Vær med i vores sociale medie klub!</h5>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="NADA" src="images/nadaCandles.jpg"/>
+                            <h5>NADA - til dig med angst og stress i hverdagen</h5>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="" src="images/youngManFun.jpg"/>
+                            <h5>Plads til sjov - se vores tilbud!</h5>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="Generøs" src="images/giveCoffee.jpg"/>
+                            <h5>Altid plads til dig - Caféen med højt til loftet</h5>
+                        </div>
+                    </a> 
+                </div>
+                
+                <h3>KFUM's sociale arbejde</h3>
+                <div class="flex">
+                    <!-- BILLEDER / ARTIKLER HER -->
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="Gave" src="images/christmasGift.jpg"/>
+                            <h5>Giv en gave til en socialt udsat</h5>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="Ensom pige" src="images/lonelyGirl.jpg"/>
+                            <h5>Du står ikke alene med ensomhed</h5>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="Jul i KFUM" src="images/santaClaus.jpg"/>
+                            <h5>KFUM's Jul</h5>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="polaroid">
+                            <img alt="" src="images/oldManReading.jpg"/>
+                            <h5>KFUM's sociale arbejde - Hvad er det?</h5>
+                        </div>
+                    </a>
+                </div>
+                
+            </section>
+            
+        </main>
+        <footer>
+            <div> 
+                <h4>Café Parasollen</h4>
+                <p>Grundtvigsvej 4</p>
+                <p>8260 Viby J</p>
+                <p>Tlf: 8611 7703</p>
+                <p>amj@kfumsoc.dk</p>
+                <a href="https://www.facebook.com/parasollenviby/"><img alt="Café Parasollen Facebook" src="images/fb.png"></a>
+                <a href="https://www.instagram.com/cafeparasollenviby/?hl=da"><img alt="Café Parasollen Instagram" src="images/in.png"></a>
+
+                <a href="#"><p>Cookie-politik</p></a>
+                <a href="#"><p>Persondata-politik</p></a>
+            </div>
+            
+            <img id="footerHeart" alt="KFUM hjerte" src="images/KFUMheart.png">
+            
+            <div>
+                <h4>KFUM's Sociale Arbejde</h4>
+                <a href=""><p>Støt</p></a>
+                <a href=""><p>Tilmeld nyhedsbrev</p></a>
+                <a href="https://www.facebook.com/KFUMsSocialeArbejde"><img alt="KFUM Facebook" src="images/fb.png"></a>
+            </div>
+        
+        </footer>
+        
+        <!-- load jQuery library -->
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	
+	<!-- load JavaScript -->
+	<script src="js/js.js"></script>
+    </body>
+</html>

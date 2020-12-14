@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="images/favicon.png">
+        <title>Café Parasollen, Viby</title>
+        <meta name="author" content="Line Merrild Nielsen"/>
+        <meta name="keywords" content="social café, café liv, frivillighed, frivillig, fællesskab, ensomhed, samvær, rummelighed, café, viby, mangfoldighed, handicap, mad, billige caféer, aktiviteter, strikkeklub, strikkecafé, alkoholfri café, café parasollen, nada café århus, parasollen, solstrålen" />
+        <meta name="description" content="Café Parasollen er en social café med plads til netop dig og dine behov, og med tilbud der klæder enhver!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/reset.css" rel="resetsheet">
+        <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'> <!-- Using Google Fonts API to get the desired font -->
+        <link href="/css/style.css" rel="stylesheet"/>
+        <link rel="icon" href="images/favicon.png" />
+        
+    </head>
+
+    <body>
+        <header>
+            <img id="logo" alt="Café Parasollen logo" src="images/logo.png" usemap="#logoMap"/>
+            <map name="logoMap">
+                <area shape="poly" coords="0,0,100,0,0,100" alt="Café Parasollen logo" href="index.html">
+            </map> 
+            <!-- Using Image Mapping, we've made the linkable part of the image ONLY the visible triangle. This is done by specifying a polygon, and three 'anchor' points using coordinates of the image, the first being (0,0), second being (100,0) nd lastly (0,100) with the x-coordinate being the distance from the left margin, and the y-coordinate being the distance from the top-->
+            
+            <nav>
+                <ul id="navItems">
+                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="#">Prisliste</a></li>
+                    <li><a href="#">Studerende og Praktikanter</a></li>
+                    <li><a href="#">Om Os</a></li>
+                    <li><a href="kontaktOs.html">Kontakt Os</a></li>
+                    <li><a id="searchIcon" href="#"><img src="images/searchIcon.png" alt="Søgeikon"/></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+           <section id="activities">
+             <div id="path">
+                 <a href="index.html">Café Parasollen</a> > <a href="aktiviteter.html">Aktiviteter</a>
+             </div>
+             <h1>Aktiviteter</h1>
+             <div id="calendar">
+                 
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ed4b2e&amp;ctz=Europe%2FCopenhagen&amp;src=bnU5bnJtOGRjamY4aHRmN2E3ZGgzMWx2MGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZGEuZGFuaXNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23F4511E&amp;color=%230B8043&amp;showTitle=1&amp;showNav=1&amp;title=Caf%C3%A9%20Parasollen" style="border-width:0" width="1100" height="600" frameborder="0" scrolling="no"></iframe>
+                
+             </div>
+             <h2>Vores Tilbud</h2>
+             <div class="flex">
+                 <div class="activity">
+                   <img class="activityImg" alt="Solstrålen" src="images/sunBeam.jpg"/>
+                    <div class="textBox">
+                      <h3>Solstrålen</h3>
+                       <p>Solstrålen er et samlested for jer der søger noget kreativt i livet. Vi er et lille fællesskab med alt fra strik til maling og musik!</p> 
+                       <p class="activityPlace">Solstrålen er i Viby Sognegårds kælder</p>
+                       <p class="activityTime">Tirsdag og torsdag fra kl. 10:00 - 13:00.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="NADA" src="images/nada.jpg"/>
+                    <div class="textBox">
+                      <h3>NADA</h3>
+                       <p>NADA er øreakupunktur som kan hjælpe på bl.a. angst, fysisk og psykisk uro, stress, søvnproblemer, abstinenser og/eller stoftrang og aggressiv adfærd. Derudover fremmer det helbredelse og forebygger tilbagefald.</p>
+                       <p>Nålene skal sidde i ørene i 45 minutter, så det er vigtigt at komme kl. 11:00 - ellers kan vi risikere ikke at have tiden til akupunkturen.</p> 
+                       <p>NADA koster 40 kr. pr. gang og består af 15 gange; udebliver man mere end to gange i træk uden besked gives ens plads videre til næste på ventelisten.</p>
+                       <p>Kontakt: Dorte Outzen på mobil: 5219 4803.</p>
+                       <p class="activityPlace">NADA foregår i Solstrålen, i Viby Sognegårds kælder</p>
+                       <p class="activityTime">Mandag fra kl. 11:00 - 12:00.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="Brætspilscafé" src="images/boardGame.jpg"/>
+                    <div class="textBox">
+                      <h3>Brætspilscafé</h3>
+                       <p>I brætspilscaféen spilles der alt fra Werewolf til skak i caféens hyggelige omgivelser! Det er op til jer hvad i vil spille:</p>
+                       <p>Vi har en samling af brætspil stående, men du er velkommen til at tage dine egne spil med - bare husk at få dem med hjem igen når der pakkes sammen!</p>
+                       <p class="activityPlace">Brætspilscaféen foregår i caférummet</p>
+                       <p class="activityTime">Torsdag fra kl. 13:00 - 14:30.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="Medieklubben" src="images/mediaClub.jpg"/>
+                    <div class="textBox">
+                      <h3>Medieklubben</h3>
+                       <p>Er du interesseret i sociale medier? Eller noget at skrive på dit CV?</p> 
+                       <p>Café Parasollen's medieklub styrer Caféens sociale medie platforme, og er en mulighed for at prøve hænder med interaktion og den online verden. De posts der lægges op er helt op til jer!</p>
+                       <p class="activityPlace">Medieklubben samles i Viby Sognegårds kælder</p>
+                       <p class="activityTime">Tirsdag og torsdag fra kl. 10:00 - 13:00.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="Strikkecafé" src="images/knit.jpg"/>
+                    <div class="textBox">
+                      <h3>Strikkecafé</h3>
+                       <p>Strikkecaféen er et møde mellem både øvede og nybegyndere til strik så strikkepindende knitrer! Her er naturligvis hjælp hvis du skulle have brug for det, og massere af hygge på bordet!</p> 
+                       <p class="activityPlace">Strikkecaféen foregår i caférummet</p>
+                       <p class="activityTime">Onsdag fra kl. 13:00 - 14:00.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="Gåtur" src="images/walk.jpg"/>
+                    <div class="textBox">
+                      <h3>Gåture</h3>
+                       <p>Vi går på tur i nærområdet i et "snakkevenligt" tempo så alle kan følge med. Vi vil anbefale at der bliver taget en lille flaske vand med og nogle praktiske sko!</p> 
+                       <p class="activityPlace">Vi mødes til gåtur ved Caféens indgang</p>
+                       <p class="activityTime">Mandag fra kl. 13:00 - 14:00.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="Frimærkeklubben" src="images/stamp.jpg"/>
+                    <div class="textBox">
+                      <h3>Frimærkeklubben</h3>
+                       <p>Frimærkeklubben er en lille samling for alle frimærkeentusiaster til at kunne bytte, passe og diskutere frimærker! Der er selvfølgelig intet krav for at kunne være med.</p> 
+                       <p class="activityPlace">Frimærkeklubben er i Viby Sognegårds kælder</p>
+                       <p class="activityTime">Mandag fra kl. 14:00 - 15:00.</p>
+                    </div>
+                 </div>
+                 <div class="activity">
+                     <img class="activityImg" alt="Petanque" src="images/petanque.jpg"/>
+                    <div class="textBox">
+                      <h3>Petanque</h3>
+                       <p>Petanque er et boldspil hvor målet er at kaste ens petanquekugler så tæt som muligt på en lille trækugle, kaldt grisen. Alle er velkomne og der kræves ingen viden om spillet forud for fremmøde.</p>
+                       <p>Vinderne belønnes naturligvis med en lille præmie!</p> 
+                       <p class="activityPlace">Petanque spilles på caféens bane ved Viby Sognegård</p>
+                       <p class="activityTime">Fredag fra kl. 13:15 - 14:15.</p>
+                    </div>
+                 </div>
+             </div>
+            </section>
+        </main>
+        <footer>
+            <div> 
+                <h4>Café Parasollen</h4>
+                <p>Grundtvigsvej 4</p>
+                <p>8260 Viby J</p>
+                <p>Tlf: 8611 7703</p>
+                <p>amj@kfumsoc.dk</p>
+                <a href="https://www.facebook.com/parasollenviby/"><img alt="Café Parasollen Facebook" src="images/fb.png"></a>
+                <a href="https://www.instagram.com/cafeparasollenviby/?hl=da"><img alt="Café Parasollen Instagram" src="images/in.png"></a>
+
+                <a href="#"><p>Cookie-politik</p></a>
+                <a href="#"><p>Persondata-politik</p></a>
+            </div>
+            
+            <img id="footerHeart" alt="KFUM hjerte" src="images/KFUMheart.png">
+            
+            <div>
+                <h4>KFUM's Sociale Arbejde</h4>
+                <a href=""><p>Støt</p></a>
+                <a href=""><p>Tilmeld nyhedsbrev</p></a>
+                <a href="https://www.facebook.com/KFUMsSocialeArbejde"><img alt="KFUM Facebook" src="images/fb.png"></a>
+            </div>
+        
+        </footer>
+        
+        <!-- load jQuery library -->
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	
+	<!-- load JavaScript -->
+	<script src="js/js.js"></script>
+    </body>
+</html>

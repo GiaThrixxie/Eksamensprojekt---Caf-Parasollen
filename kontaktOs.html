@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="images/favicon.png">
+        <title>Café Parasollen, Viby</title>
+        <meta name="author" content="Line Merrild Nielsen"/>
+        <meta name="keywords" content="social café, café liv, frivillighed, frivillig, fællesskab, ensomhed, samvær, rummelighed, café, viby, mangfoldighed, handicap, mad, billige caféer, aktiviteter, strikkeklub, strikkecafé, alkoholfri café, café parasollen, nada café århus, parasollen, solstrålen" />
+        <meta name="description" content="Café Parasollen er en social café med plads til netop dig og dine behov, og med tilbud der klæder enhver!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/reset.css" rel="resetsheet">
+        <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'> <!-- Using Google Fonts API to get the desired font -->
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+        <link href="/css/style.css" rel="stylesheet"/>
+        <link rel="icon" href="images/favicon.png" />
+        
+    </head>
+
+    <body>
+        <header>
+            <img id="logo" alt="Café Parasollen logo" src="images/logo.png" usemap="#logoMap"/>
+            <map name="logoMap">
+                <area shape="poly" coords="0,0,100,0,0,100" alt="Café Parasollen logo" href="index.html">
+            </map> 
+            <!-- Using Image Mapping, we've made the linkable part of the image ONLY the visible triangle. This is done by specifying a polygon, and three 'anchor' points using coordinates of the image, the first being (0,0), second being (100,0) nd lastly (0,100) with the x-coordinate being the distance from the left margin, and the y-coordinate being the distance from the top-->
+            
+            <nav>
+                <ul id="navItems">
+                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="#">Prisliste</a></li>
+                    <li><a href="#">Studerende og Praktikanter</a></li>
+                    <li><a href="#">Om Os</a></li>
+                    <li><a href="kontaktOs.html">Kontakt Os</a></li>
+                    <li><a id="searchIcon" href="#"><img src="images/searchIcon.png" alt="Søgeikon"/></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+          <section id="contactUs">
+             <div id="path">
+                 <a href="index.html">Café Parasollen</a> > <a href="kontaktOs.html">Kontakt Os</a>
+             </div>
+             <h1>Kontakt Os</h1>
+              <div class="flex">
+                    <div id="contactInfo">
+                        <h2>Café Parasollen, Viby</h2>
+                        <p>Grundtvigsvej 4</p>
+                        <p>8260 Viby J</p>
+                        <p>amj@kfumsoc.dk</p>
+                        <p>Tlf: 8611 7703</p>
+                        <div id="morningCoffeeAndPlanning">
+                            <p>Kl 9:00 - 9:00 tager vi desværre ikke telefonen, da vi drikker morgenkaffe og planlægger dagens arbejde med vores frivillige og medarbejdere.</p>
+                        </div>
+                        <a href="https://www.facebook.com/parasollenviby/"><img alt="Café Parasollen Facebook" src="images/fb.png" class="socialMediaIcons"></a>
+                        <a     href="https://www.instagram.com/cafeparasollenviby/?hl=da"><img alt="Café Parasollen Instagram" src="images/in.png" class="socialMediaIcons"></a>
+                    </div>
+                    <div id="openingHours">
+                            <h3>Åbningstider</h3>
+                            <p><strong>Mandag</strong> kl. 9:30 - 21:30</p>
+                            <p><strong>Tirsdag</strong> kl. 9:30 - 15:30</p>
+                            <p><strong>Onsdag</strong> kl. 9:30 - 15:30</p>
+                            <p><strong>Torsdag</strong> kl. 9:30 - 15:30</p>
+                            <p><strong>Fredag</strong> kl. 9:30 - 15:30</p>
+                            <p><strong>Lørdag lukket</strong></p>
+                            <p><strong>Søndag</strong> kl. 11:30 - 15:00</p>
+                        </div>
+                    <div id="map">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div> 
+                <h4>Café Parasollen</h4>
+                <p>Grundtvigsvej 4</p>
+                <p>8260 Viby J</p>
+                <p>Tlf: 8611 7703</p>
+                <p>amj@kfumsoc.dk</p>
+                <a href="https://www.facebook.com/parasollenviby/"><img alt="Café Parasollen Facebook" src="images/fb.png" class="socialMediaIcons"></a>
+                <a href="https://www.instagram.com/cafeparasollenviby/?hl=da"><img alt="Café Parasollen Instagram" src="images/in.png" class="socialMediaIcons"></a>
+
+                <a href="#"><p>Cookie-politik</p></a>
+                <a href="#"><p>Persondata-politik</p></a>
+            </div>
+            
+            <img id="footerHeart" alt="KFUM hjerte" src="images/KFUMheart.png">
+            
+            <div>
+                <h4>KFUM's Sociale Arbejde</h4>
+                <a href=""><p>Støt</p></a>
+                <a href=""><p>Tilmeld nyhedsbrev</p></a>
+                <a href="https://www.facebook.com/KFUMsSocialeArbejde"><img alt="KFUM Facebook" src="images/fb.png" class="socialMediaIcons"></a>
+            </div>
+        
+        </footer>
+        
+        <!-- load jQuery library -->
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	
+	<!-- load JavaScript -->
+	<script src="js/js.js"></script>
+    </body>
+</html>

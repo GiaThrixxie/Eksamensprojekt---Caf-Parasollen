@@ -1,0 +1,514 @@
+html, header, body, main, footer {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, nav li, .dailyInfo {
+    font-family: 'Dosis';
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+/***** Header *****/
+/******************/
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ed4b2e;
+    height: 60px;
+}
+
+
+#navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    font-family: 'Dosis';
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 23px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #ce2f13;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    z-index: 99;
+}
+
+#searchIcon {
+    background-color: #ce2f13;
+    padding: 19px 27px;
+}
+
+
+
+/***** Footer *****/
+/******************/
+
+footer {
+    display: flex;
+    height: 410px;
+    width: auto;
+    padding: 50px 150px;
+    justify-content: space-between;
+    background-color: #e2dedb;
+}
+
+footer div {
+    width: 180px;
+}
+
+footer .socialMediaIcons {
+    margin-bottom: 50px;
+}
+
+#footerHeart {
+    height: 130px; /*RESIZE IMG*/
+    width: auto;
+    padding-top: 60px;
+    filter: drop-shadow(0px 15px 3px #cdc8c3);
+}
+
+footer h4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #bd0000;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer a {
+    color: #465f7a;
+    text-decoration: underline;
+}
+
+
+
+/***** Pathway to current site *****/
+/***********************************/
+
+#path {
+    padding: 20px 0 0 100px;
+    font-weight: bold;
+    color: #ed4b2e;
+}
+
+#path a {
+    color: #465f7a;
+}
+
+
+
+/***** Aside - Daily bar *****/
+/*****************************/
+
+aside {
+    height: 450px;
+    width: 400px;
+    background-image: url(../images/stoneBackground.png);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    z-index: 99;
+    box-shadow: 8px 7px 10px rgba(125,122,121,0.2);
+}
+
+#day, #dailyActivities, #dailyFood, #dailyOpenHours {
+    font-family: 'Dosis';
+}
+
+#dailyActivities, #dailyFood, #dailyOpenHours {
+    margin: 0 63px;
+}
+
+#day:first-letter, #dailyActivities:first-letter, #dailyFood:first-letter {
+    text-transform: uppercase;
+}
+
+#day {
+    font-size: 30px;
+    font-weight: 700;
+    color: #e14428;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#dailyActivities, #dailyFood, #dailyOpenHours {
+    font-size: 24px;
+}
+
+.dailyInfo {
+    color: #465f7a;
+    font-weight: 600;
+    margin: 30px 0px 7px 40px;
+}
+
+.dailyActivitiesStyle strong {
+    font-weight: 600;
+    color: #bd0000;
+}
+
+
+/***** Intro section *****/
+/*************************/
+
+#intro {
+    height: 413px;
+    width: 100%;
+    background-color: #b6b1b1;
+    /*position: absolute;
+    top: 60px;
+    left: 0;*/
+    background-image: url(../images/buildings.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    overflow: hidden;
+    filter: drop-shadow(8px -3px rgba(125,122,121,0.5));
+    
+}
+
+#intro h1 { 
+    background-color: #7d7a79;
+    color: transparent;
+    font-size: 130px;
+    font-weight: 800;
+    text-shadow: -3px 3px 2px #b6b1b1;
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+    background-clip: text;
+    position: relative;
+    top: 100%;
+    transform: translateY(-80%);
+    left: -6px;
+    display: block;
+}
+
+#intro div {
+    background-color: #bd0000;
+    height: 240px;
+    width: 1400px;
+    filter: drop-shadow(-8px 3px rgba(125,122,121,0.5));
+    transform: rotate(-7deg);
+    position: relative;
+    top: -90px;
+    left: 500px;
+}
+
+#intro img {
+    position: relative;
+    top: -100px;
+}
+
+
+
+/***** Om Café Parasollen section *****/
+/**************************************/
+
+#omCafeParasollen {
+    
+    background-color: #e2dedb;
+    padding: 63px 85px 103px 85px;
+    height: 300px;
+}
+
+#omCafeen {
+    background-color: #e2dedb;
+    background: rgba(226, 222, 219, 0.6);
+    height: auto;
+    width: 700px;
+    padding: 0 30px;
+}
+
+#omCafeen, #cafeBuilding {
+    position: relative;
+    top: -666px;
+    margin-top: 63px;
+}
+
+#omCafeParasollen p {
+    font-size: 24px;
+    font-family: 'Dosis';
+}
+
+#endP {
+    margin-bottom: 40px;
+}
+
+#omCafeParasollen a {
+    background-color: #bd0000;
+    color: black;
+    font-family: 'Dosis';
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 35px;
+}
+
+#omCafeParasollen a:hover {
+    color: white;
+}
+
+#paperPeople {
+    position: relative;
+    height: 600px;
+    width: auto;
+    top: -400px;
+    left: -40px;
+    filter: drop-shadow(-8px 7px rgba(125,122,121,0.2));
+}
+
+.flex {
+    display: flex;
+}
+
+#cafeBuilding {
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+
+
+/***** Seneste Nyt sektion *****/
+/*******************************/
+
+#senesteNyt {
+    background-image: url(../images/woodBackground.jpg);
+    padding-bottom: 75px;
+    box-shadow: inset -50px 50px 50px -50px rgba(0, 0, 0, 0.6);
+}
+
+#senesteNyt h2 {
+    padding: 63px 0 0 115px;
+}
+
+#senesteNyt h3 {
+    padding: 70px 0 25px 115px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.polaroid {
+    background-color: white;
+    width: 315px;
+    height: 410px;
+    padding: 15px 15px 0px 15px;
+    margin: 0 40px;
+    border-radius: 10px;
+    filter: drop-shadow(8px 7px 5px rgba(125,122,121,0.5));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.polaroid:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+#senesteNyt .flex {
+    justify-content: center;
+}
+
+h5 {
+    font-size: 22px;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+#senesteNyt a {
+    color: black;
+}
+
+
+
+/***** Kontakt Os site *****/
+/***************************/
+
+#contactUs {
+    background-image: url(../images/stoneBackgroundContactUs.png);
+    margin: 0;
+    padding: 0;
+    
+}
+
+#contactUs .socialMediaIcons {
+    margin-bottom: 50px;
+}
+
+#contactUs .flex {
+    font-size: 18px;
+}
+
+#contactUs h1 {
+    padding: 20px 0 0 115px;
+}
+
+#contactInfo {
+    margin: 43px 0 43px 95px;
+    padding: 20px;
+    height: 400px;
+}
+
+#morningCoffeeAndPlanning {
+    width: 350px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#openingHours {
+    margin: 60px 70px;
+    padding: 20px;
+    height: 310px;
+}
+
+#contactInfo, #openingHours {
+    background-color: rgba(226,222,219,0.5);
+    border-radius: 5%;
+    box-shadow: 20px 20px 60px rgba(192,189,186,0.7), 
+                -20px -20px 60px rgba(255,255,252,0.7);
+}
+
+#map {
+    width: 600px;
+    height: 500px;
+    margin: 30px 80px 50px 150px;
+    background-color: rgba(226,222,219,0.5);
+    border-radius: 5%;
+    box-shadow: 20px 20px 60px rgba(192,189,186,1), 
+                -20px -20px 60px rgba(255,255,252,1);
+}
+
+#map h3 {
+    font-size: 20px;
+}
+
+#map p {
+    margin: 8px;
+}
+
+#marker {
+    background-image: url(../images/mapMarker.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+
+
+/***** Aktiviteter site *****/
+/****************************/
+
+#activities {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/woodBackgroundActivities.png);
+}
+
+#activities h1 {
+    padding: 20px 0 0 115px;
+}
+
+#activities h2 {
+    margin: 63px 0 63px 115px;
+}
+
+.activity {
+    height: 425px;
+    width: 425px;
+    text-align: center;
+    overflow: hidden;
+    margin: 40px;
+    
+    transition: transform 0.5s;
+}
+
+#activities .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 115px 50px 115px;
+}
+
+.textBox {
+    background-color: rgba(226,222,219,0.8);
+    height: 425px;
+    padding: 20px;
+    position: relative;
+    top: -70px;
+}
+
+.activityPlace, .activityTime {
+    font-weight: bold;
+}
+
+.activityPlace {
+    padding-top: 10px ;
+}
+
+.hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.textBoxHover {
+    top: -430px;
+    transition: 0.5s;
+}
+
+#calendar {
+    display: flex;
+    justify-content: center;
+}
+
+#calendar iframe {
+    box-shadow: 8px 7px 10px rgba(125,122,121,0.5);
+}
