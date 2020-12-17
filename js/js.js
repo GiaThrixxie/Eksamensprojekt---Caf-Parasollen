@@ -7,6 +7,8 @@ console.log('JavaScript from js/js.js: up and running!');
 /***** Zoom on mouseover - Activity site *****/
 /*********************************************/
 
+/* Made with the help of CSS-Tricks <https://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/> 
+
 //Was meant to have the img increase in size AND the textbox to show itself on hover of either one, but won't work unfortunately, so I've left the two that work on themselves plus the attempted function that didn't work
 
 $(document).ready(function () {
@@ -39,6 +41,8 @@ $(document).ready(function () {
 
     /***** Setting daily items Index page *****/
     /******************************************/
+    
+    /* Made with help from RWC <https://stackoverflow.com/questions/4822852/how-to-get-the-day-of-week-and-the-month-of-the-year> */
 
     // Display date in Danish and using local date customs (day/month/year)
     
@@ -57,6 +61,8 @@ $(document).ready(function () {
         
     
     // Display daily activities, food and open hours
+    
+    /* Made with help from W3Schools <https://www.w3schools.com/js/js_switch.asp> */
     
     // Make an empty variable for everything; one for daily activity items, one for daily food and one for open hours
     var daily_activities;
@@ -122,6 +128,8 @@ $(document).ready(function () {
 
 /***** Mapbox - Contact Us site *****/
 /************************************/
+
+/* Made with the help of Mapbox <https://docs.mapbox.com/mapbox-gl-js/example/set-popup/> */
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2lhdGhyaXh4aWUiLCJhIjoiY2tpZnNoeGUwMDg3dzJ3bXFuYjF3ZnplaSJ9.5MWMr0s3QQ0E8CQHGhnCjw';
 var cafeParasollen = [10.165250598435904, 56.129184069225076];
