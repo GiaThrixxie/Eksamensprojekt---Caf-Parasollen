@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="css/reset.css" rel="resetsheet">
         <link href='https://fonts.googleapis.com/css?family=Dosis:400,600,700,800' rel='stylesheet'> <!-- Using Google Fonts API to get the desired font -->
-        <link href="/css/style.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
         <link rel="icon" href="images/favicon.png"/>
         
         
@@ -19,6 +19,7 @@
 
     <body>
         <header>
+           <!-- Logo - return to index page -->
             <img id="logo" alt="Café Parasollen logo" src="images/logo.png" usemap="#logoMap"/>
             <map name="logoMap">
                 <area shape="poly" coords="0,0,100,0,0,100" alt="Café Parasollen logo map" href="index.html">
@@ -26,6 +27,7 @@
             <!-- Using Image Mapping, we've made the linkable part of the image ONLY the visible triangle. This is done by specifying a polygon, and three 'anchor' points using coordinates of the image, the first being (0,0), second being (100,0) nd lastly (0,100) with the x-coordinate being the distance from the left margin, and the y-coordinate being the distance from the top-->
             
             <nav>
+               <!-- Top menu -->
                 <ul id="navItems">
                     <li><a href="aktiviteter.html">Aktiviteter</a></li>
                     <li><a href="#">Prisliste</a></li>
@@ -37,6 +39,7 @@
             </nav>
         </header>
         <main>
+           <!-- Daily plan -->
             <aside>
                 <p id="day"></p>
                 <p class="dailyInfo">Aktiviteter</p>
@@ -47,12 +50,14 @@
                 <p id="dailyOpenHours"></p>
             </aside>
             
+            <!-- H1-text and skewed box -->
             <section id="intro">
                <div>
                    <h1>Café Parasollen</h1>
                </div>
             </section>
             
+            <!-- Om Café Parasollen - section -->
             <section id="omCafeParasollen">
               <img alt="" src="images/paperPeople.png" id="paperPeople"/>
               <div class="flex">
@@ -66,12 +71,14 @@
                 </div>
             </section>
             
+            
+            <!-- Seneste Nyt - section -->
             <section id="senesteNyt">
                 <h2>Seneste Nyt</h2>
                 
                 <h3>Café Parasollen</h3>
                 <div class="flex">
-                    <!-- BILLEDER / ARTIKLER HER -->
+                    <!-- Polaroid news -->
                     <a href="#">
                         <div class="polaroid">
                             <img alt="Social medie klub" src="images/socialMedia.jpg"/>
@@ -100,7 +107,7 @@
                 
                 <h3>KFUM's sociale arbejde</h3>
                 <div class="flex">
-                    <!-- BILLEDER / ARTIKLER HER -->
+                    <!-- Polaroid news -->
                     <a href="#">
                         <div class="polaroid">
                             <img alt="Gave" src="images/christmasGift.jpg"/>
@@ -130,6 +137,8 @@
             </section>
             
         </main>
+        
+        <!-- Footer -->
         <footer>
             <div> 
                 <h4>Café Parasollen</h4>

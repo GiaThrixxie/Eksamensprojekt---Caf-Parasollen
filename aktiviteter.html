@@ -10,13 +10,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="css/reset.css" rel="resetsheet">
         <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'> <!-- Using Google Fonts API to get the desired font -->
-        <link href="/css/style.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
         <link rel="icon" href="images/favicon.png" />
         
+        <!-- NOTE: This was made to fit a 1920x1080 screen and will break on most other screen sizes as the code is not currently responsive. -->
     </head>
 
     <body>
         <header>
+           <!-- Logo - return to index page -->
             <img id="logo" alt="Café Parasollen logo" src="images/logo.png" usemap="#logoMap"/>
             <map name="logoMap">
                 <area shape="poly" coords="0,0,100,0,0,100" alt="Café Parasollen logo" href="index.html">
@@ -24,6 +26,7 @@
             <!-- Using Image Mapping, we've made the linkable part of the image ONLY the visible triangle. This is done by specifying a polygon, and three 'anchor' points using coordinates of the image, the first being (0,0), second being (100,0) nd lastly (0,100) with the x-coordinate being the distance from the left margin, and the y-coordinate being the distance from the top-->
             
             <nav>
+               <!-- Top menu -->
                 <ul id="navItems">
                     <li><a href="aktiviteter.html">Aktiviteter</a></li>
                     <li><a href="#">Prisliste</a></li>
@@ -35,16 +38,23 @@
             </nav>
         </header>
         <main>
+          <!-- Aktiviteter - section -->
            <section id="activities">
+            
+            <!-- Path from index to Aktiviteter-->
              <div id="path">
                  <a href="index.html">Café Parasollen</a> > <a href="aktiviteter.html">Aktiviteter</a>
              </div>
              <h1>Aktiviteter</h1>
+             
+             <!-- Calendar -->
              <div id="calendar">
                  
                 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ed4b2e&amp;ctz=Europe%2FCopenhagen&amp;src=bnU5bnJtOGRjamY4aHRmN2E3ZGgzMWx2MGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZGEuZGFuaXNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23F4511E&amp;color=%230B8043&amp;showTitle=1&amp;showNav=1&amp;title=Caf%C3%A9%20Parasollen" style="border-width:0" width="1100" height="600" frameborder="0" scrolling="no"></iframe>
                 
              </div>
+             
+             <!-- Vores Tilbud - section -->
              <h2>Vores Tilbud</h2>
              <div class="flex">
                  <div class="activity">
@@ -128,6 +138,8 @@
              </div>
             </section>
         </main>
+        
+        <!-- Footer -->
         <footer>
             <div> 
                 <h4>Café Parasollen</h4>
