@@ -7,7 +7,7 @@ console.log('JavaScript from js/js.js: up and running!');
 /***** Zoom on mouseover - Activity site *****/
 /*********************************************/
 
-/* Made with the help of CSS-Tricks <https://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/> 
+/* Made with the help of CSS-Tricks <https://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/> */
 
 //Was meant to have the img increase in size AND the textbox to show itself on hover of either one, but won't work unfortunately, so I've left the two that work on themselves plus the attempted function that didn't work
 

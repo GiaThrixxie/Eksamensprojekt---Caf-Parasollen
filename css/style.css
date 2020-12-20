@@ -41,7 +41,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #ed4b2e;
+    background-color: #3d3e3d;
     height: 60px;
 }
 
@@ -58,7 +58,8 @@ ul {
 }
 
 nav a {
-    color: black;
+    /*color: black;*/
+    color: white;
     font-size: 18px;
     font-weight: 600;
     padding: 20px 23px;
@@ -250,7 +251,7 @@ aside {
     
     background-color: #e2dedb;
     padding: 63px 85px 103px 85px;
-    height: 300px;
+    height: 270px;
 }
 
 #omCafeen {
@@ -264,7 +265,8 @@ aside {
 #omCafeen, #cafeBuilding {
     position: relative;
     top: -666px;
-    margin-top: 63px;
+    /*margin-top: 63px;*/
+    margin-top: 40px;
 }
 
 #omCafeParasollen p {
@@ -303,8 +305,9 @@ aside {
 }
 
 #cafeBuilding {
-    margin-top: 20px;
+    margin-top: 45px;
     margin-left: 140px;
+   height: 350px; 
 }
 
 
